@@ -47,7 +47,10 @@ class Directory extends Component {
     return (
       <div className='directory-menu'>
         {/* Map through the state that has the section details and create a Menu component for each
-        all while passing props */}
+        all while passing props */
+        // Spread operator 
+        
+        }
         {
           this.state.sections.map(({ id, ...otherSectionProps}) => (
             <MenuItem key={id} {...otherSectionProps} />

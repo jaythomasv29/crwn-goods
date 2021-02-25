@@ -1,6 +1,6 @@
 import React from "react";
 import "./MenuItem.scss";
-import { withRouter } from 'react-router-dom' // A higher order component
+import { withRouter } from 'react-router-dom' // A higher order component ( a function that takes a component as an argument and returns a modified component)
 
 function MenuItem({ title, id, imageUrl, size, history, linkUrl, match }) {
   return (
